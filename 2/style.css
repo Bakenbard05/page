@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+body{
+    background:rgb(185, 160, 128);
+    color: chocolate;
+    margin: 10px 0 10px 0;
+    font-size: larger;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Nunito';
+}
+a:hover{
+    transition: .1s ease-out;
+    border-radius: 10px;
+    padding: 0 0 0 10px;
+}
+.content-right{
+    justify-content: right;
+    max-width: 40%;
+    background-color: rgb(228, 184, 125);
+    border-radius: inherit;
+    margin: 0 10px 0 10px;
+    padding: 0 0 0 0;
+}
+.content-left{
+    display: block;
+    align-items: left;
+    justify-content: left;
+    background-color: rgb(242, 232, 219);
+    padding: 10px 10px 10px 10px;
+    margin: 0 0 0 10px;
+    border-radius: inherit;
+}
+.content-right img{
+    border-radius: 10px;
+    display: grid;
+    margin: 10px auto 10px auto;
+    padding: 0 0 0 0;
+    width: 80%;
+}
+.links{
+    font-size: larger;
+    display: grid;
+    width: fit-content;
+    background: rgb(255, 221, 169);
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+}
+.links a:hover{
+    background-color: rgb(255, 231, 195);
+}
+.content{
+    display: flex;
+    border-radius: 10px;
+}
+.films, .music{
+    font-size: larger;
+}
+.films{
+    display: flex;
+    width: max-content;
+    border-radius: 10px;
+    background: rgb(179, 186, 147);
+    padding: 0 30px 0 0;
+    color: cornsilk;
+}
+.films a:hover{
+    background-color: rgb(194, 204, 147);
+}
+.music{
+    display: flex;
+    width: max-content;
+    border-radius: 10px;
+    background: rgb(147, 186, 185);
+    padding: 0 30px 0 0;
+    color: #dcfffe;
+}
+.music a:hover{
+    background-color: rgba(162, 218, 216, 0.55);
+}
+.about{
+    font-size: larger;
+    color: rgb(255, 221, 221);
+    background: rgb(185, 107, 107);
+    border-radius: 10px;
+    padding: 0 10px 0 10px;
+    width: fit-content;
+}
+#bornplace:hover{
+    transition: 0.2s ease;
+    padding: 10px 10px 10px 10px;
+    font-size: 2rem;
+}
+#game:hover{
+    transition: 0.3s ease;
+    padding: 10px 10px 10px 10px;
+    font-size: 2.5rem;
+}
