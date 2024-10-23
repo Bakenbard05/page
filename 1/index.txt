@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная работа №1</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: darkgray;
+        }
+        a{
+            color: black;
+        }
+    </style>
+    <h1>О себе</h1>
+    <p>
+        Меня зовут Зайцев Валерий. Я студент второго курса направления "Конструирование и технология электронных средств". Я родился в городе Фергана(находится в Узбекистане).<br>
+        Я обожаю программирование, а в частности создание трёхмерных игр. В данный момент я помогаю в тестировании компьютерной игры под названием Rocket Science.<br>
+        <b>
+            <del>Я игроман</del>
+        </b>
+    </p>
+    <h2>
+        Какие фильмы мне нравятся
+    </h2>
+    <ul>
+        <li>
+            Первому игроку приготовиться
+        </li>
+        <li>
+            Трансформеры(все части)
+        </li>
+        <li>
+            Бегущий по лезвию 2049
+        </li>
+    </ul>
+    <h2>
+        Какая музыка мне нравится
+    </h2>
+    <ol>
+        <li>
+            Bring Me The Horizon
+        </li>
+        <li>
+            Linkin Park
+        </li>
+        <li>
+            Boston Manor
+        </li>
+        <li>
+            Twenty One Pilots
+        </li>
+        <li>
+            Slipknot
+        </li>
+        <li>
+            Bad Omens
+        </li>
+        <li>
+            Architects
+        </li>
+    </ol>
+
+    <h2>
+        Как связаться со мной
+    </h2>
+    <font size="10px">
+        <a href="https://vk.com/valzay">Валерий Зайцев(ВК)</a><br>
+        Это буквально я >>>> 
+    </font>
+    <img
+     src="https://sun9-16.userapi.com/impg/vGEEcwbRxW21uINgRulnRNbxLYrHAeDm6R6faw/PAs62bH1kGU.jpg?size=1201x1599&quality=95&sign=990c014408250869c53ef4250ef486c7&type=album"
+     width="512px" 
+     >
+</body>
+</html>

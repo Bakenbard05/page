@@ -13,7 +13,7 @@ a{
 a:hover{
     transition: .1s ease-out;
     border-radius: 10px;
-    padding: 0 0 0 10px;
+    padding: 0 1rem 0 1rem;
 }
 .content-right{
     justify-content: right;
@@ -96,4 +96,23 @@ a:hover{
     transition: 0.3s ease;
     padding: 10px 10px 10px 10px;
     font-size: 2.5rem;
+}
+
+.header{
+    display: flex;
+    justify-content: right;
+    color: floralwhite;
+    margin: 10px;
+    padding: 2rem;
+    border-radius: 10px;
+    width: auto;
+    background: rgb(250, 144, 65);
+    font-size: larger;
+}
+.header a {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.header a:hover{
+    background-color: burlywood;
 }

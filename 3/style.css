@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+body{
+    background: #595CF6;
+    color: chocolate;
+    margin: 1rem;
+    font: larger "Nunito", monospace;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.header{
+    display: flex;
+    justify-content: right;
+    background: rgb(255, 221, 169);
+    border-radius: 10px;
+    padding: 1rem;
+}
+.header a{
+    padding: inherit;
+    border-radius: 10px;
+}
+.header a:hover{
+    background-color: rgb(255, 231, 195);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 221, 169);
+}
+.container-1{
+    border-radius: 20px;
+    padding: 1rem;
+    background: rgb(255, 221, 169);
+}
+.block-1{
+    border-radius: 10px;
+    background: rgb(228, 197, 117);
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
+#image{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-2{
+    display: flex;
+    background: rgb(255, 221, 169);
+    border-radius: 20px;
+    height: 300px;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.block-2{
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(228, 197, 117);
+}
+
+.container-3{
+    background: rgb(255, 221, 169);
+    border: dashed;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.block-3{
+    margin: 1rem;
+    background: rgb(248, 93, 93);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.container-4{
+    background: rgb(255, 221, 169);
+    border-radius: 20px;
+    height: 450px;
+    display: flex;
+    padding: 1rem;
+}
+
+.block{
+    width: 200px;
+    height: 200px;
+    border: solid;
+    border-radius: 3px;
+    position: relative;
+    left: 60%;
+    top: 60%;
+}
+
+#first{
+    border-color: red;
+    left: 40%;
+    top: 0%;
+}
+
+#second{
+    border-color: green;
+}
+
+#third{
+    border-color: blue;
+}
+
+.cat{
+    position: fixed;
+    top: 89%;
+    left: 94%;
+    width: 100px;
+    height: 100px;
+}
+
+
+
