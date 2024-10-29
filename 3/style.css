@@ -45,7 +45,6 @@ h1{
 #image{
     border-radius: 10px;
     display: flex;
-    justify-content: center;
     margin-left: auto;
     margin-right: auto;
 }
@@ -75,16 +74,16 @@ h1{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+
+    justify-content: space-between;
 }
 
 .block-3{
-    margin: 1rem;
     background: rgb(248, 93, 93);
     width: 200px;
     height: 200px;
     border-radius: 50%;
 }
-
 .container-4{
     background: rgb(255, 221, 169);
     border-radius: 20px;
@@ -92,7 +91,6 @@ h1{
     display: flex;
     padding: 1rem;
 }
-
 .block{
     width: 200px;
     height: 200px;
@@ -102,21 +100,17 @@ h1{
     left: 60%;
     top: 60%;
 }
-
 #first{
     border-color: red;
     left: 40%;
     top: 0%;
 }
-
 #second{
     border-color: green;
 }
-
 #third{
     border-color: blue;
 }
-
 .cat{
     position: fixed;
     top: 89%;
