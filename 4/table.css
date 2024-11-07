@@ -2,7 +2,6 @@ body{
     background: #4A4947;
     color: #DDDDDD;
 }
-
 .header{
     display: flex;
     justify-content: right;
@@ -22,12 +21,10 @@ a{
     text-decoration: none;
     color: inherit;
 }
-
 caption{
     margin-top: 10px;
     font-size: 2rem;
 }
-
 table, td, th{
     font-size: larger;
     margin-top: auto;
