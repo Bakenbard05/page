@@ -1,0 +1,44 @@
+#navbar{
+    margin-top: 10px;
+    background: #0734ff;
+    height: 100px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.navbar-links{
+    margin-right: 25px;
+    text-decoration: none;
+    color: #ccc49e;
+}
+
+
+.photos{
+    background: #FFAA00;
+}
+
+
+#carouselExampleControls{
+    margin-top: 10px;
+}
+
+.photo{
+    border-radius: 25px;
+    height: 800px;
+}
+
+
+.card, #about, #carouselExampleControls{
+    margin-top: 10px;
+    border: none;
+}
+
+#sidebar{
+    margin-top: 10px;
+    margin-right: 5px;
+    border-radius: 25px;
+    background: #0734ff;
+    font-size: large;
+}
