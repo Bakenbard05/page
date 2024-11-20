@@ -42,3 +42,12 @@
     background: #0734ff;
     font-size: large;
 }
+
+.actor-photo{
+    border-radius: 30px;
+    margin-top: 15px;
+}
+
+.about{
+    font-size: x-large;
+}
