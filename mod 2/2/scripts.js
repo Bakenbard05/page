@@ -3,7 +3,7 @@ function mult2_of_3(a, b, c){
     console.log(ar);
     const m1 = Math.max(...ar);
     console.log(ar.indexOf(m1), m1);
-    t = ar.splice(ar.indexOf(m1), 1);
+    ar.splice(ar.indexOf(m1), 1);
     const  m2 = Math.max(...ar);
     console.log(ar);
     return m1 * m2;
