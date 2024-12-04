@@ -10,5 +10,8 @@ function mult2of3(a, b, c){
 a = Number(prompt("Число a: "));
 b = Number(prompt("Число b: "));
 c = Number(prompt("Число c: "));
-
 alert("Произведение двух максимальных чисел: " + String(mult2of3(a, b, c)));
+
+
+
+
