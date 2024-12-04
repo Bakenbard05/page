@@ -3,10 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="./scripts.js"></script>
+    <title>Лаба 2</title>
 </head>
 <body>
+    <h1>Задание 1(Вариант 1)</h1>
+    <style>
+        #zadanie1{
+            background: rgb(124, 124, 52);
+            border-radius: 10px;
+            padding: 20px;
+            width: fit-content;
+            font-size: 2rem;
+        }
+
+        #numa, #numb, #numc{
+            font-size: 1rem;
+            width: 50%;
+        }
+
+        #zadanie2{
+            background: rgb(124, 124, 52);
+            border-radius: 10px;
+            padding: 20px;
+            width: fit-content;
+            font-size: 2rem;
+        }
+    </style>
+    <form id="zadanie1">
+        <label for="numa">Число a</label>
+        <input type="number" id="numa" name="numa"><br>
+        <label for="numb">Число b</label>
+        <input type="number" id="numb" name="numb"><br>
+        <label for="numc">Число c</label>
+        <input type="number" id="numc" name="numc"><br>
+        <input type="submit" value="Запуск функции 1" style="font-size: 1rem; border-radius: 10px; border: none;">
+        <div id="output1">
+        </div>
+    </form>
+    <h1>Задание 2(Вариант 2)</h1>
+    <form id="zadanie2">
+        <label for="name">Имя</label>
+        <input type="text" id="name" name="name"><br>
+        <label for="rank">Ранг</label>
+        <input type="text" id="rank" name="rank"><br>
+        <input type="submit" value="Запуск функции 2" style="font-size: 1rem; border-radius: 10px; border: none;">
+        
+        <div id="output2">
+        </div>
+    </form>
+    <script src="./scripts.js"></script>
 </body>
-    
+
+
 </html>

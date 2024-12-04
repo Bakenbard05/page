@@ -9,3 +9,5 @@ for(let i = 2; i <= Math.sqrt(Math.abs(n)); i++){
 }
 if(count < 2) alert("Число n=" + String(n) + " простое");
 else alert("Число n=" + String(n) + " не простое");
+
+
