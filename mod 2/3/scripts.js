@@ -60,21 +60,13 @@ class Student{
         return marks;
     }
     delete_marks_by_subject(subject){
-        let again = true;
-
-
-        while(again){
-            for(let i = 0; i < this.marks.length; i++){
-                if(this.marks[i].subject === subject){
-                    this.marks.splice(i, 1);
-                    again = true;
-                    break;
-                }
-                else{
-                    again = false;
-                }
+        let n = [];
+        for(let i = 0; i < this.marks.length; i++){
+            if(this.marks[i].subject !== subject){
+                n.push(this.marks[i]);
             }
         }
+        this.marks = n;
     }
 }
 console.log("!############################################!");
