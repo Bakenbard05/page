@@ -13,7 +13,7 @@ function variant_6(arr){
         }
     }
     if(count != 0){
-        avg = avg / count;
+        avg /= count;
     }
     return avg;
 }
