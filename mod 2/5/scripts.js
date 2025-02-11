@@ -7,7 +7,7 @@ function variant_6(arr){
     let count = 0;
     for(var i = 0; i < arr.length; i++){
         let number = arr[i]; 
-        if(number % 2 != 0) {
+        if(number % 2) {
             avg += number;
             count++;
         }
