@@ -6,8 +6,8 @@ function variant_6(arr){
     let avg = 0.0;
     let count = 0;
     for(var i = 0; i < arr.length; i++){
-        let number = Math.floor(arr[i]); 
-        if(number % 2) {
+        let number = arr[i]; 
+        if(Math.floor(number) % 2) {
             avg += number;
             count++;
         }
